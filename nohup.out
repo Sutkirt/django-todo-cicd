@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+[10/Mar/2026 11:54:32] "GET /todos/ HTTP/1.1" 200 4104
+[10/Mar/2026 11:54:32] "GET /static/css/style.css HTTP/1.1" 304 0
+[10/Mar/2026 11:55:07] "GET /todos/ HTTP/1.1" 200 4104
