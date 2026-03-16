@@ -10,13 +10,17 @@ cd django-todo-cicd
 
 ### Create Python virtual environment
 python -m venv env
+
 Activate it:
+
 env\Scripts\activate
 Now terminal will show:
+
 (env) PS C:\Users\...\django-todo-cicd>
 
 ### Install project dependencies
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+
 pip install django
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
