@@ -1,13 +1,23 @@
-# django-todo
+### django-todo
 A simple todo app built with django
 
 ![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
 ### Setup
-To get this repository, run the following command inside your git enabled terminal
-```bash
+To get this repository, run the following command inside your git enabled terminal bash
 $ git clone https://github.com/shreys7/django-todo.git
-```
+And go to your project folder
+cd django-todo-cicd
+
+### Create Python virtual environment
+python -m venv env
+Activate it:
+env\Scripts\activate
+Now terminal will show:
+(env) PS C:\Users\...\django-todo-cicd>
+
+### Install project dependencies
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+pip install django
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
@@ -24,7 +34,7 @@ $ python manage.py migrate
 
 One last step and then our todo App will be live. We need to create an admin user to run this App. On the terminal, type the following command and provide username, password and email for the admin user
 ```bash
-$ python manage.py createsuperuser
+$ python manage.py createsuperuser 
 ```
 
 That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
